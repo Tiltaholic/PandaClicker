@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clicker", "clicker\clicker.csproj", "{44F97B3E-5B03-4847-8A47-2B31BA905B01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F97B3E-5B03-4847-8A47-2B31BA905B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F97B3E-5B03-4847-8A47-2B31BA905B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F97B3E-5B03-4847-8A47-2B31BA905B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F97B3E-5B03-4847-8A47-2B31BA905B01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F5731B1-A3D0-4518-9138-91F4AD1E153B}
+	EndGlobalSection
+EndGlobal

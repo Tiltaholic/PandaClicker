@@ -113,24 +113,40 @@ namespace clicker
 
         private void leftCpsMin_Scroll(object sender, ScrollEventArgs e)
         {
+            if (leftCpsMin.Value > leftCpsMax.Value)
+            {
+                leftCpsMin.Value = leftCpsMax.Value;
+            }
             metroLabel7.Text = leftCpsMin.Value.ToString();
             lmbMin = leftCpsMin.Value;
         }
 
         private void leftCpsMax_Scroll(object sender, ScrollEventArgs e)
         {
+            if (leftCpsMax.Value < leftCpsMin.Value)
+            {
+                leftCpsMax.Value = leftCpsMin.Value;
+            }
             metroLabel8.Text = leftCpsMax.Value.ToString();
             lmbMax = leftCpsMax.Value;
         }
 
         private void rightCpsMin_Scroll(object sender, ScrollEventArgs e)
         {
+            if (rightCpsMin.Value > rightCpsMax.Value)
+            {
+                rightCpsMin.Value = rightCpsMax.Value;
+            }
             metroLabel9.Text = rightCpsMin.Value.ToString();
             rmbMin = rightCpsMin.Value;
         }
 
         private void rightCpsMax_Scroll(object sender, ScrollEventArgs e)
         {
+            if (rightCpsMax.Value < rightCpsMin.Value)
+            {
+                rightCpsMax.Value = rightCpsMin.Value;
+            }
             metroLabel10.Text = rightCpsMax.Value.ToString();
             rmbMax = rightCpsMax.Value;
         }

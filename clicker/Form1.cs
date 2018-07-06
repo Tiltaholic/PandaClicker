@@ -139,25 +139,11 @@ namespace clicker
         {
             if (keys == lmbBind)
             {
-                if (leftClick.Enabled)
-                {
-                    leftClick.Stop();
-                }
-                else if (!leftClick.Enabled)
-                {
-                    leftClick.Start();
-                }
+                leftClick.Enabled = !leftClick.Enabled;
             }
             if (keys == rmbBind)
             {
-                if (rightClick.Enabled)
-                {
-                    rightClick.Stop();
-                }
-                else if (!leftClick.Enabled)
-                {
-                    rightClick.Start();
-                }
+                rightClick.Enabled = !rightClick.Enabled;
             }
             if(keys == Keys.A)
             {
